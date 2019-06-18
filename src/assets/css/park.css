@@ -1,0 +1,121 @@
+body{
+    font-family: Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif
+}
+html,body{
+    background: #fff!important;
+}
+/*绑定车辆*/
+.my_license .bg img {
+    display: block;
+    width: 100%;
+}
+
+.my_license .license-title {
+    padding: 1.5rem 1rem .8rem 1rem;
+    font-size: 1.2rem;
+    color: #666;
+    overflow: hidden;
+}
+
+.my_license .license-title .edit-btn {
+    float: right;
+    color: #89b2af;
+}
+
+.my_license .license-box .no-license {
+    width: 100%;
+    font-size: 1.2rem;
+    background: #f1f1f1;
+    padding: .8rem 0;
+    color: #4d4d4d;
+    text-align: center;
+}
+
+.my_license .license-box .add-license {
+    outline: none;
+    display: block;
+    width: 40%;
+    font-size: 1.2rem;
+    background: #3aaabd;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin: 0 auto;
+    color: #fff;
+    padding: .5rem 0;
+    text-align: center;
+    margin-top: 3.5rem;
+    border: 0;
+}
+.my_license .license-box .add-license:disabled{
+    background:#e5e6e6;
+}
+.my_license .license-tip {
+    margin:2rem;
+    font-size: .9rem;
+    color: #757575;
+}
+.my_license .license-tip h1{
+    font-size: 1.2rem;
+    color: #757575;
+    font-weight: normal;
+    margin-top: 1rem;
+}
+.my_license .license-lists .my-license-list .inner-box{
+    height: 4.5rem;
+    padding: 0 1rem;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+}
+.my_license .license-lists .my-license-list .inner-box{
+    background: #dcdbdc;
+    color: #bfbfbf;
+}
+.my-license-list .inner-box.cur .fl .card-name{
+    color: #3aaabd;
+}
+.my-license-list .inner-box .fl .card-name{
+    font-size: 1.2rem;
+    margin-top: .5rem;
+}
+.my_license .license-lists .my-license-list .inner-box.cur{
+    border: 1px solid #f1f1f1;
+    border-left: 0;
+    border-right: 0;
+    background: #fff;
+    color: #757575;
+}
+
+.my-license-list .license_del {
+    float: right;
+    font-size: 1.2rem;
+    color: #999;
+}
+
+.my-license-list .license_del .license_state {
+    display: inline-block;
+    text-align: center;
+    width: 6rem;
+    line-height: 5rem;
+    color: #bfbfbf;
+}
+
+.my-license-list .license_del .license_state.cur {
+    color: #424242;
+}
+
+.my-license-list .license_del .del-icon {
+    display: inline-block;
+    height: auto;
+    color: #fff;
+    padding:0.2rem 0.8rem;
+    background: #3aaabd;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-right: 1rem;
+}
+
+.component_dialog_bd i {
+    font-style: normal;
+    color: #4db8c0;
+    margin: 0 5px;
+}
