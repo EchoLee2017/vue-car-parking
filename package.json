@@ -10,7 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "less": "^3.8.1",
     "node-sass": "^4.9.3",
     "pug": "^2.0.3",
